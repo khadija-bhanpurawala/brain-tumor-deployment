@@ -1,2 +1,4 @@
 .DS_Store
 __pycache__/
+mr_brain_tumor_model.h5
+mri_brain_tumor_model.h5
