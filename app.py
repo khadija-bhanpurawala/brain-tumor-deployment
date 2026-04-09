@@ -9,7 +9,7 @@ st.set_page_config(page_title="MRI Brain Tumor Detection", page_icon="🧠")
 # 2. Load the Model
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model('mr_brain_tumor_model.h5')
+    model = tf.keras.models.load_model('mri_brain_tumor_model.h5')
     return model
 
 model = load_model()
